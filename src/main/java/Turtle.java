@@ -60,20 +60,25 @@ public class Turtle {
             Color.MAGENTA,
             Color.CYAN,
     };
+
     private static int baseIndex = 0;
 
     /**
      * Makes a new turtle in the center of the world.
      * @param w the world
      */
-    public Turtle(World w) { this(w, 0, 0); }
+    public Turtle(World w) {
+        this(w, 0, 0);
+    }
     /**
      * Makes a new turtle at the specified point within the world.
      * @param x the x coordinate, in pixels; 0 is the center; bigger numbers to left
      * @param y the y coordinate, in pixels; 0 is the center; bigger numbers down
      * @param w the world
      */
-    public Turtle(double x, double y, World w) { this(w, x, y); }
+    public Turtle(double x, double y, World w) {
+        this(w, x, y);
+    }
     /**
      * Makes a new turtle at the specified point within the world.
      * @param w the world
